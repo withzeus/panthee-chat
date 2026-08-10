@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #0f1115;
+  color: #e6e6e6;
+}
+
+.prose-chat p {
+  margin: 0 0 0.5em 0;
+}
+.prose-chat p:last-child {
+  margin-bottom: 0;
+}
+.prose-chat pre {
+  background: #0b0d11;
+  border: 1px solid #2a2e38;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  overflow-x: auto;
+}
+.prose-chat code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.9em;
+}
+.prose-chat ul,
+.prose-chat ol {
+  padding-left: 1.25em;
+}
